@@ -11,7 +11,7 @@ public class TrainControllerImpl implements TrainController {
 	public TrainControllerImpl(){
 		while(true)
 		{
-			Thread.Sleep(5);
+			Thread.Sleep(10);
 			followSpeed();
 		}	
 	}
